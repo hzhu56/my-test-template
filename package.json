@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./server.js"
+    "start": "node ./server.js",
+    "test": "nodemon ./server.js"
   },
   "engines": {
     "node": "^16.17.0",
@@ -22,7 +23,7 @@
     "popper.js": "^1.16.1"
   },
   "description": "test template",
-  "main": "index.js",
+  "main": "server.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
